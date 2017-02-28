@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Looking Into Employee Retention: HR Analytics
+title: Sam's HR Data Analysis
 author: Sam Castillo
 ---
 
