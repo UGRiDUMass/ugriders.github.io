@@ -4,6 +4,8 @@ title: Looking Into Employee Retention: HR Analytics
 author: Sam Castillo
 ---
 
+For this analysis I chose to examine the relationship between satisfaction level, evaluation score, and the number of projects as indicators of employees leaving. These were found to be the most critical variables in determening employee retention.
+
 Questions:
 ==========
 
@@ -21,8 +23,6 @@ How to the following factors impact employee retention?
 -   Whether the employee has left
 
 \*This dataset is simulated
-
-For this analysis I chose to examine the relationship between satisfaction level, evaluation score, and the number of projects as indicators of employees leaving. These were found to be the most critical variables in determening employee retention.
 
 Data Summary
 ============
