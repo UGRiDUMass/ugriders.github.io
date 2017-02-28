@@ -1,6 +1,6 @@
 ---
 layout: post
-title: HR Data Analysis
+title: Elliot's HR Data Analysis
 author: Elliot DeBruyn
 ---
 
