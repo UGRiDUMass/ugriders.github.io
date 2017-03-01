@@ -94,13 +94,13 @@ str(hrdat)
 hist(hrdat$sat)
 ```
 
-![](img/sam_castillo/unnamed-chunk-1-1.png)
+![](/img/sam_castillo/unnamed-chunk-1-1.png)
 
 ``` r
 hist(hrdat$eval)
 ```
 
-![](img/sam_castillo/unnamed-chunk-1-2.png)
+![](/img/sam_castillo/unnamed-chunk-1-2.png)
 
 ``` r
 # ggpairs(hrdat)
@@ -124,7 +124,7 @@ p3 = ggplot(data = hrdat, aes(sat, eval, left))
 p3 + geom_point(aes(color = factor(left), shape = factor(accident))) + ggtitle("Satisfaction be Evaluation Score")
 ```
 
-![](img/sam_castillo/unnamed-chunk-4-1.png)
+![](/img/sam_castillo/unnamed-chunk-4-1.png)
 
 ``` r
 p3.1 = ggplot(data = hrdat, aes(sat, eval, left)) 
@@ -132,13 +132,13 @@ p3.1 = ggplot(data = hrdat, aes(sat, eval, left))
 p3.1 + geom_point(aes(color = factor(department), shape = factor(accident))) + ggtitle("Those who left by Satisfaction and Evaluation Score")
 ```
 
-![](img/sam_castillo/unnamed-chunk-4-2.png)
+![](/img/sam_castillo/unnamed-chunk-4-2.png)
 
 ``` r
 p3.1 + geom_point(aes(color = factor(proj))) + ggtitle("Number of Projects, Satisfaction, and Evaluation Score")
 ```
 
-![](img/sam_castillo/unnamed-chunk-4-3.png) There is clearly some relationship between satisfaction level and evaluation; there are subsets in the population. There doesn't appear to be a pattern in accidents.
+![](/img/sam_castillo/unnamed-chunk-4-3.png) There is clearly some relationship between satisfaction level and evaluation; there are subsets in the population. There doesn't appear to be a pattern in accidents.
 
 We are interested in the blue box of employees with satisfaction levels from 0.3 to 0.45 and evaluation level 0.3 to 0.5.
 
@@ -150,7 +150,7 @@ p5 <- ggplot(hrdat, aes(factor(left), sat))
 p5 + geom_boxplot(aes(fill = proj)) 
 ```
 
-![](img/sam_castillo/unnamed-chunk-7-1.png) Notice that satisfaction levels at projects 6 and 7 are extremely low. Also notice that no employee with 7 projects stayed, and that satisfaction drops off sharpley with the addition of the 6th project. The blue box on the left shows high variability in those who stay with 6 projects.
+![](/img/sam_castillo/unnamed-chunk-7-1.png) Notice that satisfaction levels at projects 6 and 7 are extremely low. Also notice that no employee with 7 projects stayed, and that satisfaction drops off sharpley with the addition of the 6th project. The blue box on the left shows high variability in those who stay with 6 projects.
 
 Conclusion:
 ===========
