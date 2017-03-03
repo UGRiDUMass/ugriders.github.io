@@ -8,7 +8,7 @@ theme_settings:
   title: UGRiD
   avatar: favicon.png
   gravatar: # Email MD5 hash
-  description: "UGRiD UGRID ugrid ugrid.info umass data science" # used by search engines
+  description: "UGRiD UGRID ugrid ugrid.info umass data science undergraduate researchers interested in data big data R Mathematics SAS STATA Tableau scientist analyst " # used by search engines
 
   # Header and footer text
   header_text: >
