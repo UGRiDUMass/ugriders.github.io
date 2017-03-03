@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Contact
+description: For people who are looking to contact UGRID (undergraduate researchers interested in data) located at UMass. Feel free to email umassugrid@gmail.com or any of its officers. 
 permalink: /contact/
 feature-img: "img/landscape3.jpeg"
 ---
