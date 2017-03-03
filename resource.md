@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Resource
+description: UGRID offers information to the Five College undergraduate students for becoming a Data Scientist. Checkout its resource page for educational articles, blogs, and software. 
 permalink: /resource/
 feature-img: "img/landscape2.jpeg"
 --- 
