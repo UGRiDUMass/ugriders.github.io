@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about/
+description: For more information about UMass Amherst's first Undergraduate Data Science Organization. Check out the UGRID about page and read its Mission Statement. 
 feature-img: "img/landscape4.jpeg"
 ---
 
