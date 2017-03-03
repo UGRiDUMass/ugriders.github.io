@@ -1,6 +1,8 @@
 ---
 layout: post
 title: What is UGRID?
+permilink:/what_is_ugrid
+description: UGRiD stands for "Undergraduate Researchers Interested in Data". It's a group that consists of Five College students from cross-interdisciplinary backgrounds who have an interest in Data Science.
 author: Vincent Lee
 ---
 
