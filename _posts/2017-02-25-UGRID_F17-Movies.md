@@ -1,7 +1,7 @@
 ---
 layout: post
 title: UGRID Meeting 3 - Movies
-feature-img: "img/texture3.png"
+feature-img: "img/landscape7.jpeg"
 author: Vincent Lee
 ---
 
