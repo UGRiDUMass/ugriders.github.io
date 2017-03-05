@@ -12,8 +12,7 @@ feature-img: "img/landscape2.jpeg"
 
 <h2> Worksheets </h2>
 
-- Introduction to R [download] [1]
-[1]/download/UGRiD)_Introduction_to_R.rmd
+- Introduction to R 
 - Introduction to ggplot2
 - Introduction to dpylr
 
