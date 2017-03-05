@@ -17,9 +17,8 @@ feature-img: "img/landscape3.jpeg"
 - Secretary Email (Robert Harris): <robertharris@umass.edu><br />
 - Treasury Email (Harley Jean): <hjean@umass.edu><br />
 
-<h4>Contact our Officers:</h4>
 
-o
+Contact our Officers                                        | Email Addresses
 ----------------------------------------------------------- | -----------------------------------------------------------
 UGRID Email:                                                |  <umassugrid@gmail.com>
 President Email (Vincent Lee):                              |  <vylee@umass.edu>
