@@ -10,6 +10,6 @@ UGRiD stands for "Undergraduate Researchers Interested in Data". It's a group th
 For any new members, I would suggest you get started by going over to our resource page! 
 
 Also don't forget to contact us, we need your email so we can add you onto our group!
-<br/>
+
 <center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/T1rzXklDC8M" frameborder="0" allowfullscreen></iframe> </center>
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/T1rzXklDC8M" frameborder="0" allowfullscreen></iframe> </center>
