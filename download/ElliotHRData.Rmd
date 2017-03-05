@@ -1,0 +1,50 @@
+---
+title: "HR Data"
+output: html_document
+---
+##Reading in Data (Use Step Function to Find Significant Variables)
+```{r}
+hr = read.csv("HR_comma_sep.csv")
+library(ggplot2)
+```
+##Binning variables and Creating Tables
+For example: Satisfaction vs Number of Projects
+```{r}
+satisfaction = cut(hr$satisfaction_level, c(0, .1, .2, .3, .4, .5, .6, .7, .8, .9, 1))
+table = table(satisfaction, hr$number_project)
+table
+```
+##Plot of Hours vs Satisfaction Accounting for Left
+We see four distinct clusters
+```{r}
+p = ggplot(data = hr, aes(x = average_montly_hours, y = satisfaction_level, col = left))
+p + geom_point()
+```
+
+##Seperating Clusters By Eye
+So we can analyze them individually
+```{r}
+bigsquare = subset(hr, satisfaction_level >.5)
+bigsquare = subset(hr, average_montly_hours > 130)
+bigsquare = subset(hr, average_montly_hours < 280)
+smallsquare = subset(hr, satisfaction_level < .5)
+smallsquare = subset(hr, average_montly_hours > 125)
+smallsquare = subset(hr, average_montly_hours <170)
+bottomline = subset(hr, satisfaction_level <.1)
+bottomline = subset(hr, average_montly_hours > 240)
+bigleft = subset(bigsquare, left == 1)
+```
+##Cluster Summaries (Boring Part)
+We see that the group in the bottom right are being worked very hard and all eventually quit.  The left of center cluster is newer employees who do not get many projects and are yet unhappy which is opposite of the usual correlation.  The group of folks who left in the upper right have been at the company a while and are satisfied but leave anyways.  These people have not gotten promotons in the last five years and could be leaving for more money.  They are happy despite leaving which is the inverse of the overall trend.  This is why it is so important to separate these groups.  Any stories we make up to why people leave is just speculation, but the data does not lie.  To predict who leaves or employ techniques to retain employees, one must analyze each subset.
+```{r}
+summary(hr)
+summary(smallsquare)
+summary(bigsquare)
+summary(bottomline)
+summary(bigleft)
+```
+##Not All of Your Plots Will Be Good
+I made this horrible plot at one point and felt really stupid.  That is a part ofS exploratory data analysis
+```{r}
+plot(left ~ promotion_last_5years, data = hr)
+```
