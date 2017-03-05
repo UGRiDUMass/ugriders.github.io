@@ -1,0 +1,143 @@
+---
+title: "Introduction to dpylr"
+author: "Vincent Lee"
+date: "3/4/2017"
+output: html_document
+---
+
+> ***Random Tip of the day:*** There are always resources and tutorials online; https://www.rstudio.com/resources/webinars/data-wrangling-with-r-and-rstudio/ or https://cran.rstudio.com/web/packages/dplyr/vignettes/introduction.html. Our slogan: "the effort you put into your work is proportional to what you expect to get out of this"
+
+Data wrangling is known as data manipulation, data preparation, or even data plumbing. Dpylr is a package that allows you to take control and manage your data. Data wrangling is important because it allows you to transform and organize raw data sets into something that you can work with. Whenever you begin to work with large amounts of data you will need dyplr to break it down into smaller datasets that you can direct your focus on.
+
+### Getting started
+
+First download dpylr, if you haven't done so already. (Also go to the help button above to download a data wrangling cheatsheet).
+
+```{r}
+##install.packages("dpylr")
+library(dplyr)
+```
+
+Now import and explore the HR dataset (download it from http://ugrid.info/2017/02/11/UGRID_F17-Introduction.html):
+
+```{r}
+##if you have any questions about importing; use getwd() or setwd() otherwise direct message one of the officers on slack.
+
+HRanalytics <- read.csv("HR_analytics.csv", header = TRUE)
+```
+
+### Aggregating
+
+I always think of writing dplyr as a query (or asking a question). In this example, I asking for the total number of people who have either stayed or left. (Sum will not work because you're adding the ints together)
+
+```{r}
+## %>% this symbol is an example of a piping operator. It exists in dplyr to simplify multiple operations so you can read left-to-right then top-to-bottom. Rather than one giant line with multiple parthesises. Don't worry if this is confusing, you will eventually get use to it.
+
+HRanalytics %>% 
+  count(left)  
+```
+
+Summarise gives you a basic summary of the data, but you can group however many functions to however many variables.
+
+```{r}
+## An example without the piping operator
+
+summarise(HRanalytics,"average last evaluation" = mean(last_evaluation), "median satisfaction level" = median(satisfaction_level))
+```
+
+Here I'm asking what would happen if we group salary to the people who have either stayed or left.
+
+```{r}
+HRanalytics %>% 
+  group_by(salary) %>%
+  count(left)
+```
+
+This is an example if we grouped and summarise.
+
+```{r}
+HRanalytics %>% 
+  group_by(sales) %>%
+  summarise(sat_level_sd = sd(satisfaction_level), last_eval_mean = mean(last_evaluation)) 
+```
+
+### Subsetting
+
+There are cases where we would like to remove or pick certain parts of our data. Either to focus on a specific group or to plot visuals.
+
+Here I would like to get the unique number of time spent at the company, but sort them in ascending order.
+
+```{r}
+HRanalytics %>% 
+  distinct(time_spend_company) %>% 
+  arrange(time_spend_company)
+```
+
+If I just wanted satisfaction level of people over 80% and those who worked on 6 or more projects. I would just take this people out of the dataset.
+
+```{r}
+HRanalytics %>% 
+  subset(number_project >= "6" & satisfaction_level > .8)
+```
+
+The sample function is always good for creating training or testing sets. It's a random sample used for research or observation.
+
+```{r}
+HRanalytics %>% 
+  sample_n(100)
+```
+
+### Filtering
+
+Think of filtering as selecting or keeping a part of the dataset. Subsetting is removing of take a part of the dataset.
+
+```{r}
+HRanalytics %>% 
+  filter(number_project <= "2" & satisfaction_level < .2)
+```
+
+Select only provides the individual columns that you wish to look at.
+
+```{r}
+HRanalytics %>% 
+  select(satisfaction_level, number_project, Work_accident)
+```
+
+You can also rename columns.
+
+```{r}
+HRanalytics %>% 
+  rename("left or remained" = left, "Happiness" = satisfaction_level)
+```
+
+Mutate allows you to create a new variable from pre-existing variables
+
+```{r}
+##Scroll right
+HRanalytics %>% 
+  mutate("time spent per project" = average_montly_hours/number_project)
+```
+
+### More complex example
+
+```{r}
+HRanalytics %>% 
+  select(satisfaction_level, number_project, salary, left) %>%
+  subset(satisfaction_level > .8) %>%
+  filter(number_project > 5) %>%
+  group_by(salary) %>%
+  count(left) %>%
+  arrange(desc(salary))
+
+##The list can go on...
+```
+
+### Conclusion
+
+I hope this brief introduction to data wrangling provides a good starting point for how to exploring your data. If you ever get stuck remember Google is your best friend.
+
+### Challenges
+
+- Try subsetting your dataset and join them back together
+- Try sampling and run a few test or observations with that sample dataset
+- Try making new variables with the data you have now

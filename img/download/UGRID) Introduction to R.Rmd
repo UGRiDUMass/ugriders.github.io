@@ -1,0 +1,210 @@
+---
+title: "UGRID: Introduction to R"
+author: "Vincent Lee"
+date: "February 7, 2017"
+output: html_document
+---
+
+> ***Random tip of the day:*** Click the help button (above) to learn about Keyboard Shortcuts. It allows you to work faster while shaving overall time in your workload. The help button also provides you with a list of cheat sheets. 
+
+###Part 0: Before we start.
+
+First we want to load our dataset, normally you would need to add a special import function based on what the file type is called. However, RStudio has a few pre-installed datasets that we can easily access. Today we will be using the "mtcars" dataset so to call it you'll just need to create a new variable with mtcars pointed to it.
+
+```{r}
+mtcars <- mtcars
+```
+
+Before we begin we always want to look at the dataset to make sure we have a clear understanding of what's going on. Remember these functions will give you a better understanding or preview of the data structure:
+
+* class() - Class of data object 
+
+* dim() - Dimensions of data 
+
+* names() - Column names 
+
+* str() - Preview of data with helpful details 
+
+* summary() - Summary of data
+
+* glimpse() - Preview summary of data
+
+* nrow()- Number of row
+
+* ncol() - Number of column
+
+* head() - First few rows and columns (add n = some_number to specify the number of rows)
+
+* tail() - Last few rows and columns (add n = some_number to specify the number of rows)
+
+Now play around with the mtcars dataset (run each line individually in the console)
+
+```{r}
+class(mtcars) 
+dim(mtcars) 
+names(mtcars)
+str(mtcars) 
+summary(mtcars)
+```
+
+> Note: You can also click on the icons underneath "Data" on the top right environment to see the entire dataset.
+
+> Additional Note: If you ever get lost use help() or ?function_name.
+
+Now let's look into ways in which we can summarize or measure data, remember these basic mathematical functions:
+
+* mean() - Average, sum of data values divided by count
+
+* median() - Central location of data values
+
+* quantile() - 5-number summary 
+
+* sd() - Standard deviation
+
+* var() - Variance
+
+* cor() - Correlation coefficient
+
+* covar() - Covariance
+
+Now play around with the mtcars dataset (run each line individually in the console)
+
+```{r}
+mean(mtcars$cyl) 
+sd(mtcars$mpg) 
+cor(mtcars$mpg, mtcars$wt)
+```
+
+###Part 1: A look at creating Bar plots in basic R.
+
+Lets create a table of the counts of cars within each number of cylinders. The table function can be really useful.
+
+```{r}
+counts <- table(mtcars$cyl)
+counts
+```
+
+This table can be turned into a barplot:
+
+```{r}
+barplot(counts)
+```
+
+Now add a main title called "Car Distribution", a horizontal title called "Number of Cylinders",and a vertical title called "Frequency"
+
+```{r}
+barplot(counts, main="Car Distribution", xlab="Number of Cylinders", ylab = "Frequency") 
+```
+
+Make the y axis higher and also add color to the barplot:
+
+```{r}
+barplot(counts, main="Car Distribution", xlab="Number of Cylinders", ylim=c(0,30), col = c("blue", "red", "purple")) 
+```
+
+Don't go too deep into creating a perfect design with these plots. These are great for a quick visual analysis, but there are better tools if you want to make stunning data visualization.
+
+###Part 2: A look at creating histogram in basic R.
+
+Create a histogram of mtcars$wt weight column
+
+```{r}
+hist(mtcars$wt)
+```
+
+Create a density plot of mtcars$wt weight column
+
+```{r}
+plot(density(mtcars$wt))
+```
+
+Generate a histogram and a density plot of the weight distribution. Using abline function add vertical lines for the mean and median to the histogram. Make the lines different line types (with the lty parameter). You may look here for graphical parameters: http://www.statmethods.net/advgraphs/parameters.html. Let's make both plots appear in the same window by using par(mfrow=c(1,2)) as an example.
+
+```{r}
+par(mfrow=c(1,2))
+hist(mtcars$wt)
+abline(v=mean(mtcars$wt), col=2, lty=2)
+abline(v=median(mtcars$wt), col=3, lty=3)
+plot(density(mtcars$wt))
+```
+
+###Part 3: A look at creating boxplot in basic R.
+
+Generate boxplots by comparing the mpg ~ gear for mtcars.
+
+```{r}
+boxplot(mpg ~ gear, data = mtcars, main="mpg distributions")
+```
+
+###Part 4: A look at creating scatterplot in basic R.
+
+Let's look at the mtcars data set to create a scatterplot. We want to compare mpg ~ wt for mtcars
+
+```{r}
+plot(mpg ~ wt, data = mtcars, main="mpg distributions")
+```
+
+###Part 5: A look at creating linear model in basic R.
+
+Fit a linear model to the data with the wt as covariate and mpg as the response variable. Display the output of the fit with the summary function.
+
+```{r}
+fit <- (lm(mpg ~ wt, data = mtcars)) 
+summary(fit)
+```
+
+Plot the data again like a scatterplot, but add a abline corresponding to the coefficent of fit to see the linear regression on the mpg distribution.
+
+```{r}
+plot(mpg ~ wt, data = mtcars, main="mpg distributions")
+abline(coef(fit), col = "red", lty=2)
+```
+
+###Part 6: Normal and Probability Distribution
+
+Let's generate random numbers to create a normal distribution for horsepower.
+```{r}
+#seeds make sure the you use the same randomly generated number (just see what happens when you remove it)
+set.seed(1234)
+rnorm(10, mean(mtcars$hp), sd(mtcars$hp))
+```
+
+Let's see a graph of this random normal distribution.
+```{r}
+set.seed(1234)
+hist(rnorm(10, mean(mtcars$hp), sd(mtcars$hp)))
+```
+
+Let's determine the probability.
+```{r}
+pnorm(10, mean(mtcars$hp), sd(mtcars$hp))
+```
+
+###Challlenges (Fill it in yourself)
+
+Obtain the frequency for gears and change it to a factor data type.
+```{r}
+
+```
+
+Standardize mpg and create a new plot.
+```{r}
+
+```
+
+Apply an regression analysis.
+```{r}
+
+```
+
+Make 1 or 2 Keen observation (anything that's already not done)
+```{r}
+
+```
+
+Now all you have to do is save your work. Try exporting it as a HTML, PDF, and a Word Document.
+
+------
+
+If you haven't already check out datacamp.com or ugrid.info/resource
+
