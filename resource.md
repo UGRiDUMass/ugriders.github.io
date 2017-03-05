@@ -33,8 +33,8 @@ Setting Up RStudio with Github                              | Download & Install
 Instructions:                                               | [https://www.r-project.org/](https://www.r-project.org/) 
 1. Downloading RStudio                                      | [https://www.rstudio.com/](https://www.rstudio.com/)  
 2. Downloading git and making a github account              | [https://git-scm.com/](https://git-scm.com/)  
-3. Cloning the ugrid repo from my github to your            |  
-  local computer                                            | Register for Github (we no longer use git):
+3. Cloning the ugrid repo from my github to your            |  * Note we no longer use github... *
+  local computer                                            | Register for Github:
 4. Making your own branch on the ugrid repo                 | [Github](https://github.com/) 
 5. Connecting rstudio (and the `ugrid.Rproj`)               | 
   with github                                               | Register for Slack:
