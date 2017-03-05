@@ -5,6 +5,9 @@ description: For people who are looking to contact UGRID (undergraduate research
 permalink: /contact/
 feature-img: "img/landscape3.jpeg"
 ---
+
+-----
+
 <center><h3>We meet every week on Saturday 3pm Room 1667 (16th Floor) of the W.E.B DuBois Library at UMass.</h3></center>
 
 -----
