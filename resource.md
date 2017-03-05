@@ -10,6 +10,21 @@ feature-img: "img/landscape2.jpeg"
 
 -----
 
+<h2> Worksheets </h2>
+
+- Introduction to R
+- Introduction to ggplot2
+- Introduction to dpylr
+
+-----
+
+<h2> Publications </h2>
+
+- (2/25/17) Sam Castillo - HR Analysis
+- (2/25/17) Elliot Debruyun - HR Analysis
+
+-----
+
 <h2> Onboarding Process </h2>
 
 Setting Up RStudio with Github                              | Download & Install:
@@ -19,7 +34,7 @@ Instructions:                                               | [https://www.r-pro
 1. Downloading RStudio                                      | [https://www.rstudio.com/](https://www.rstudio.com/)  
 2. Downloading git and making a github account              | [https://git-scm.com/](https://git-scm.com/)  
 3. Cloning the ugrid repo from my github to your            |  
-  local computer                                            | Register for Github:
+  local computer                                            | Register for Github (we no longer use git):
 4. Making your own branch on the ugrid repo                 | [Github](https://github.com/) 
 5. Connecting rstudio (and the `ugrid.Rproj`)               | 
   with github                                               | Register for Slack:
