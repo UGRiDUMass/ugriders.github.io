@@ -12,16 +12,16 @@ feature-img: "img/landscape2.jpeg"
 
 <h2> Worksheets </h2>
 
-- Introduction to R 
-- Introduction to ggplot2
-- Introduction to dpylr
+- [Introduction to R](/img/download/Introduction_to_R.rmd)
+- [Introduction to ggplot2](/img/download/Introduction_to_ggplot2.rmd)
+- [Introduction to dpylr](/img/download/Introduction_to_dpylr.rmd)
 
 -----
 
 <h2> Publications </h2>
 
-- (2/25/17) Sam Castillo - HR Analysis
-- (2/25/17) Elliot Debruyun - HR Analysis
+- (2/25/17) [Sam Castillo - HR Analysis](/img/download/samHRdata.rmd)
+- (2/25/17) [Elliot Debruyun - HR Analysis](/img/download/elliotHRdata.rmd)
 
 -----
 
