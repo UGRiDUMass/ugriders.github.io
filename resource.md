@@ -21,7 +21,7 @@ feature-img: "img/landscape2.jpeg"
 <h2> Publications </h2>
 
 - (2/25/17) [Sam Castillo - HR Analysis](/img/download/samHRdata.rmd)
-- (2/25/17) [Elliot Debruyun - HR Analysis](/img/download/elliotHRdata.rmd)
+- (2/25/17) [Elliot Debruyun - HR Analysis](ugriders.github.io/img/download/ElliotHRData.Rmd)
 
 -----
 
