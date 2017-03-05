@@ -9,15 +9,6 @@ feature-img: "img/landscape3.jpeg"
 
 -----
 
-<h4>Contact our Officers:</h4>
-
-- UGRID Email: <umassugrid@gmail.com><br />
-- President Email (Vincent Lee): <vylee@umass.edu><br />
-- Vice President Email (Evan Moore): <ermoore@umass.edu><br />
-- Secretary Email (Robert Harris): <robertharris@umass.edu><br />
-- Treasury Email (Harley Jean): <hjean@umass.edu><br />
-
-
 Contact our Officers                                        | Email Addresses
 ----------------------------------------------------------- | -----------------------------------------------------------
 UGRID Email:                                                |  <umassugrid@gmail.com>
