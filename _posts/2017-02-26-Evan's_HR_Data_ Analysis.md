@@ -154,7 +154,7 @@ ggplot(left, aes(x = average_montly_hours, y = satisfaction_level)) +
     labs(title = "Employee Satisfaction vs. Hours Worked", x = "Hours per Month", y = "Satisfaction Level") 
 ```
 
-![](hr_files/figure-markdown_github/unnamed-chunk-3-1.png)
+![](/img/evan_moore/unnamed-chunk-3-1.png)
 
 This plot indicates there are three main groups among the employees who quit: those who worked few hours per month and were moderately dissatisfied with their jobs, those who worked normal hours and were moderately-to-very satisfied with their jobs, and those who worked heavy hours who were very dissatisfied with their jobs. Don't focus on the group that quit while they were satisfied - it is likely due to outside factors like spouse moving or outside promotion. Instead, make conditions better for unsatisfied workers, especially those with many projects and working more than 8 hours a day.
 Another potential relationship I wanted to explore was between an employee's satisfaction level and their last evaluation score based on those who left.
@@ -163,7 +163,7 @@ Another potential relationship I wanted to explore was between an employee's sat
 ggplot(left, aes(x = last_evaluation, y = satisfaction_level)) + geom_jitter(aes(col = promotion_last_5years)) + labs(title = "Employee Satisfaction from Last Evaluation", x = "Last Evaluation Score", y = "Satisfaction Level")
 ```
 
-![](hr_files/figure-markdown_github/unnamed-chunk-4-1.png)
+![](/img/evan_moore/unnamed-chunk-4-1.png)
 
 Interestingly, the same clusters emerge: this plot indicates that the same group who works fewer hours are the ones who score low on their evaluation; on the other hand, the ones who work normal-to-heavy schedules all recieved mostly positive evaluations, but are still strongly split between enjoying and hating their jobs. The company needs to avoid assigning people who are already working 9-10 hours a day with more projects in order to keep stress down and satisfaction up. The exceedingly low number of promotions among those who left is also clear in this plot, and perhaps more upward mobility would benefit the company's employee retention rate.
 
@@ -241,7 +241,7 @@ library(ggfortify)
 autoplot(mod)
 ```
 
-![](hr_files/figure-markdown_github/unnamed-chunk-8-1.png)
+![](/img/evan_moore/unnamed-chunk-8-1.png)
 
 The residuals vs. fitted plot shows that the residuals follow a roughly linear pattern.
 The Q-Q plot shows the residuals are normally-distributed towards the center, but taper off at the beginning and end. This could potentially be addressed with the use of a transformation term.
@@ -281,7 +281,7 @@ Conclusions and Next Steps
 ggplot(data, aes(x = time_spend_company, y = average_montly_hours, col = left)) + geom_jitter() + labs(title = "Time Spent at Company vs. Average Hours Worked", x = "Years at company", y = "Monthly hours worked")
 ```
 
-![](hr_files/figure-markdown_github/unnamed-chunk-11-1.png)
+![](/img/evan_moore/unnamed-chunk-11-1.png)
 
 The main cause of employee churn seems to be caused by too many projects being assigned to those already working more than the average amount per week. Spread these out among those who work the least and have the least amount of projects. Try to focus on those who have been working for 3-5 years since the data indicates that these groups are the most likely to quit and the longer an employee stays, the more satisfied and less likely to quit they are.
 
