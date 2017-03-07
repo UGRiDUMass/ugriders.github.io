@@ -4,7 +4,7 @@ title: Evan Moore's HR Data Analysis
 author: Evan Moore
 ---
 
-Modeling employee attrition and describing ways an employer can retain their best workers.
+Modeling employee attrition and describing reasons why an employee might quit.
 
 Exploratory Analysis
 --------------------
