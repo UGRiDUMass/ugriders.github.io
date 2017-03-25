@@ -28,7 +28,7 @@ https://drive.google.com/open?id=1GlzYknJCw0jXrSWUQlPvq20b3dPrS65SRcjeFF4AhOw
 <h2> Onboarding Process </h2>
 
 <center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/527lvu63xa0" frameborder="0" allowfullscreen></iframe>
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/527lvu63xa0" frameborder="0" allowfullscreen></iframe>
 </center>
 
 Setting Up RStudio with Github                              | Download & Install:
