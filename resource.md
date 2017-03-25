@@ -6,17 +6,30 @@ permalink: /resource/
 feature-img: "img/landscape2.jpeg"
 --- 
 
-<center><h1><a href="https://docs.google.com/document/d/1ybqfYYISGWTvPbdcLfyf95g8Sx3HmcP7qFnsJLpAnOw/edit">Click Here to visit the Data Science Resource Pack</a></h1></center>                                                          
+<h2> Data Science Resource Pack </h2>
+
+<a href="https://docs.google.com/document/d/1ybqfYYISGWTvPbdcLfyf95g8Sx3HmcP7qFnsJLpAnOw/edit">Click Here to visit the Data Science Resource Pack</a>                                                        
 
 -----
 
-<h2> Worksheets </h2>
+<h2> Workshop Slides </h2>
+
+https://drive.google.com/open?id=1GlzYknJCw0jXrSWUQlPvq20b3dPrS65SRcjeFF4AhOw
+
+-----
+
+
+<h2> Beginner Worksheets </h2>
 
 <https://drive.google.com/drive/folders/0B7qRQkZ2lu7TUWI2VDNvOG9Gclk?usp=sharing>
 
 -----
 
 <h2> Onboarding Process </h2>
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/527lvu63xa0" frameborder="0" allowfullscreen></iframe>
+</center>
 
 Setting Up RStudio with Github                              | Download & Install:
 ----------------------------------------------------------- | -----------------------------------------------------------
