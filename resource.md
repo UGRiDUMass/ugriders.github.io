@@ -14,7 +14,7 @@ feature-img: "img/landscape2.jpeg"
 
 <h2> Workshop Slides </h2>
 
-https://drive.google.com/open?id=1GlzYknJCw0jXrSWUQlPvq20b3dPrS65SRcjeFF4AhOw
+<https://drive.google.com/drive/folders/0B7qRQkZ2lu7TalVOV0k1TmlYc1k?usp=sharing>
 
 -----
 
