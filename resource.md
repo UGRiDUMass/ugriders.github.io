@@ -25,6 +25,12 @@ feature-img: "img/landscape2.jpeg"
 
 -----
 
+<h2> Amherst's Workshop Material (all credits to them) </h2>
+
+<https://www.amherst.edu/academiclife/departments/mathematics-statistics/resources-opportunities/statsconsult/workshop-materials>
+
+-----
+
 <h2> Onboarding Process </h2>
 
 <center>
@@ -34,22 +40,17 @@ feature-img: "img/landscape2.jpeg"
 Setting Up RStudio with Github                              | Download & Install:
 ----------------------------------------------------------- | -----------------------------------------------------------
                                                             | 
-Instructions:                                               | [https://www.r-project.org/](https://www.r-project.org/) 
-1. Downloading RStudio                                      | [https://www.rstudio.com/](https://www.rstudio.com/)  
-2. Downloading git and making a github account              | [https://git-scm.com/](https://git-scm.com/)  
-3. Cloning the ugrid repo from my github to your            |  * Note we no longer use github... *
-  local computer                                            | Register for Github:
-4. Making your own branch on the ugrid repo                 | [Github](https://github.com/) 
-5. Connecting rstudio (and the `ugrid.Rproj`)               | 
-  with github                                               | Register for Slack:
-6. Pushing changes to your own branch on the                | [Slack](https://slack.com/) 
-  ugrid repo                                                | (the team should be 5col-ugrid.slack.com)
-7. Merging changes from the master branch to your           |     
-  own branch                                                | Guide To Setting Up RStudio with Github:   
-                                                            | [R-Blogger](https://www.r-bloggers.com/rstudio-and-github/)   
-If you have any questions or issues please email or         | 
-post it on Slack:                                           | Facebook Group:
-                                                            | [UGRiD Facebook](https://www.facebook.com/groups/787225494648469/)
+Instructions:                                               | [https://cran.r-project.org](https://cran.r-project.org) 
+Downloading RStudio                                         | [https://www.rstudio.com/](https://www.rstudio.com/)  
+Downloading git and making a github account (optional)      | [https://git-scm.com/](https://git-scm.com/)  
+                                                            |
+Register for Slack                                          | [Slack](https://slack.com/) 
+                                                            | (the team should be 5col-ugrid.slack.com)
+If you have any questions or issues please email or slack   |
+                                                            |
+Guide To Setting Up RStudio with Github:                    | [R-Blogger](https://www.r-bloggers.com/rstudio-and-github/)    
+                                                            |
+Facebook Group:                                             | [UGRiD Facebook] (https://www.facebook.com/groups/787225494648469/)          |
                                                             | 
 vylee@umass.edu                                             | Our Github Repository:
                                                             | [UGRiD Repo](https://github.com/tommyjee/ugrid) 
