@@ -50,7 +50,7 @@ If you have any questions or issues please email or slack   |
                                                             |
 Guide To Setting Up RStudio with Github:                    | [R-Blogger](https://www.r-bloggers.com/rstudio-and-github/)    
                                                             |
-Facebook Group:                                             | [UGRiD Facebook] (https://www.facebook.com/groups/787225494648469/)          |
+Facebook Group:                                             | [UGRiD Facebook](https://www.facebook.com/groups/787225494648469/)          |
                                                             | 
 vylee@umass.edu                                             | Our Github Repository:
                                                             | [UGRiD Repo](https://github.com/tommyjee/ugrid) 
