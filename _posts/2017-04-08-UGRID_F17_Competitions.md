@@ -1,11 +1,11 @@
 ---
 layout: post
 title: UGRID Meeting 6 - Competitions
-feature-img: "img/landscape8.jpeg"
+feature-img: "img/landscape8.jpg"
 author: Vincent Lee
 ---
 
-Hey guys, in this meeting we will start our data analysis on datasets pertaining to (previous or ongoing) online competitions. After Datafest, I thought this would be a good opportunity to have the club practice and see more realistic datasets. Data Competition are a great for beginners to benchmark themselves and learn from others, but it is also a great source of reputation if you are able to win. Data Competitions help rack up achievements that you can put on your portfolio and it is also an amazing conversation starter. If that's not enough to incentivize you, data competitions can award their participants with prizes ranging anywhere from $500 - $1,000,000. The chances of winning is sometimes easier than you think, but overall this is a good experience for expanding your career and knowledge base. 
+Hey guys, in this meeting we will start our data analysis on datasets pertaining to (previous or ongoing) competitions. After Datafest, I thought this would be a good opportunity to have the club practice and see real world datasets. Data Competition are a great for beginners to benchmark themselves and learn from others, but it is also a great source of reputation if you are able to win. Data Competitions help rack up achievements that you can put on your portfolio. If that's not enough to incentivize you, data competitions can award their participants with free swag and prizes ranging anywhere from $500 - $1,000,000. The chances of winning is sometimes easier than you think, but overall this is a good experience for expanding your career and knowledge base. 
 
 - *Wrap up the Movie Dataset*: You can continue working on the movie dataset, but if you want to showcase your work please email us back with your rmd file.
 - *Schedule tentative plans*: We're Recruiting Officers! Please talk to one of the current officers or email us if you have any interest in helping out!
