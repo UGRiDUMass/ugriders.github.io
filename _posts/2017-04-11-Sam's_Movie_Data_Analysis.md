@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: Sam's Movie Data Analysis
