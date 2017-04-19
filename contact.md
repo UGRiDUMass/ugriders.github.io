@@ -22,4 +22,9 @@ Treasury Email (???):                                       |  ???
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSesUvgBN3yv7W5qPWy4w7wnOP9wck9LjZwkp4KoH09ynElqvQ/viewform?embedded=true" width="100%" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
  
-
+<form action="https://formspree.io/your@email.com"
+      method="POST">
+    <input type="text" name="name">
+    <input type="email" name="_replyto">
+    <input type="submit" value="Send">
+</form>
