@@ -8,7 +8,9 @@ Hello fellow UGRID members,
 
 I was hoping to give you guys some small advice if you're still applying for jobs, but I've kind of gone overboard with my writing. I know it's final exam season, but I would urge you to keep at it because job postings tend to decrease over the summer. Btw, if you guys have any advice or feedback feel free to reply down below.
 
+
 -----
+
 
 **[The Right Keywords] : What do you type when you search for a job? What do you normally write in your resume? What do you usually say to a recruiter?**
 
@@ -18,7 +20,9 @@ When you end up finding a job that suits you, they will give you an exact descri
 
 Now you're talking to a recruiter or a hiring manager, make sure you repeat all those keywords that you've read in the job description. Also come up with a story of where you have implemented those skills whether it’s in a professional, academic, or recreational setting (hint: I've learned about this skill in UGRiD). Another friendly advice, the key is not to just answer all the question thrown at you. Try befriending the recruiter! If they ask you whether you have any questions, make sure you have a list prepared. If you don’t, try asking the recruiter about themselves. (e.g. what benefits has this company brought to you? Why or how did you become a manager?). They’ve spent all this time fixed on you, make them feel good by opening the conversation to them. Even if they forget everything about the interview, by the time it’s over they would at least remember that you were the person that ended it on a good note.
 
+
 -----
+
 
 **[Stand out] : When applying for jobs one of the most important things you can do is stand out from the rest of the crowd. You can do that by several ways:**
 
@@ -40,7 +44,9 @@ The other way to stand out is to become a beautiful lady or a handsome gentleman
 
  You can google the rest yourself, if you had no idea about business etiquette before reading this.
 
+
 -----
+
 
 **[Build Connections] : Honestly, more than 50% of people who do get an interview for hire come from having connections and referral from someone else.**
 
