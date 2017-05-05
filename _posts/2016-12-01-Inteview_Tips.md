@@ -8,7 +8,7 @@ Hello fellow UGRID members,
 
 I was hoping to give you guys some small advice if you're still applying for jobs, but I've kind of gone overboard with my writing. I know it's final exam season, but I would urge you to keep at it because job postings tend to decrease over the summer. Btw, if you guys have any advice or feedback feel free to reply down below.
 
-**[The Right Keywords] : What do you type when you search for a job? What do you normally write in your resume? What do you usually say to a recruiter? **
+**[The Right Keywords] : What do you type when you search for a job? What do you normally write in your resume? What do you usually say to a recruiter?**
 
   First of all, I normally type in the keywords "data" or "analyst" in the search box because I get the broad range of results that I am looking for. When you type something like "data scientist" you're getting a specialized field where they typically ask for PHDs or 5 years of experience. Sometimes I would go as far as typing the software or programming language that I specialize in.
 
