@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: Datafest 2017 Reflection
