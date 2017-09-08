@@ -16,7 +16,7 @@ theme_settings:
 
   header_text_feature_image: img/landscape1.jpeg
   footer_text: >
-   <h3>Copyright © UGRiD 2016</h3>
+   <h3>Copyright © UGRiD 2017</h3>
    
   # Icons
   rss: false
@@ -26,7 +26,7 @@ theme_settings:
   dribbble:
   facebook: "groups/787225494648469"
   flickr:
-  github: "tommyjee/ugrid"
+  github: "UGRiDUMass"
   google_plus:
   instagram:
   linkedin: "https://www.linkedin.com/groups/8583903"
