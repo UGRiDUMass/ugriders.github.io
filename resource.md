@@ -52,7 +52,6 @@ Guide To Setting Up RStudio with Github:                    | [R-Blogger](https:
                                                             |
 Facebook Group:                                             | [UGRiD Facebook](https://www.facebook.com/groups/787225494648469/)          |
                                                             | 
-vylee@umass.edu                                             | Our Github Repository:
-                                                            | [UGRiD Repo](https://github.com/tommyjee/ugrid) 
+Our Github Repository:                                      | [UGRiD Repo](https://github.com/UGRiDUMass) 
                                                             
                                                             
