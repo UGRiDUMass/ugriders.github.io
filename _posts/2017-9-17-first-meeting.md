@@ -3,7 +3,7 @@ layout: post
 title: First Meeting Information
 ---
 
-Download the slides for our "Intro to Data Science" presentation at our github [here](
+Download the slides for our "Intro to Data Science" presentation at our github [here](https://github.com/UGRiDUMass/workshops)
 
 ## Tech/Entertainment
 
