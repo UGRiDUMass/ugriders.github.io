@@ -8,7 +8,7 @@ feature-img: "img/landscape3.jpeg"
 
 -----
 
-<center><h3>We meet every week on Sunday 3-5pm, Room TBD of the W.E.B DuBois Library at UMass.</h3></center>
+<center><h3>We meet every week on Sunday 3-5pm, Room 1667 of the W.E.B DuBois Library at UMass.</h3></center>
 
 -----
 
