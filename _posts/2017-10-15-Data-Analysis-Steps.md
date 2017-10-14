@@ -1,10 +1,9 @@
 ---
 layout: post 
 title: Data Analysis Steps
-subtitle: by Evan Moore
 ---
 
-In this post, I will go over some general tips on how to approach analyzing a new dataset, which we can apply to the [HR Analytics](https://www.kaggle.com/ludobenistant/hr-analytics) dataset hosted on Kaggle.com
+In this post, we will go over some general tips on how to approach analyzing a new dataset, which we can apply to the [HR Analytics](https://www.kaggle.com/ludobenistant/hr-analytics) dataset hosted on Kaggle.com
 
 ## Initial Steps
 
