@@ -38,7 +38,7 @@ The purpose of this club shall be:
 ---
   
 <center><i>
-Since there is a rapidly growing interest in data science in the area, the goal of the group is to provide a social base for like-minded Five College students. Basically, it's like DataFest with more dialogue with more than one group and with data from local and online businesses.
+Since there is a rapidly growing interest in data science in the area, the goal of the group is to provide a social base for like-minded Five College students. Essentially, it's like DataFest with more dialogue with more than one group and with data from local and online businesses.
 </i></center>
 
 
