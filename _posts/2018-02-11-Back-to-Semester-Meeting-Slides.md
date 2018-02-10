@@ -7,4 +7,4 @@ If you are interested in referencing the slides used for our talk on data visual
 
 [Back-to-Semester Talk](https://github.com/UGRiDUMass/workshops/blob/master/Spring%202018%20Presentation.pdf)
 
-[Plotly/ggplot2 presentation:](https://evanm31.github.io/plotly_pres.html#1) 
+[Plotly/ggplot2 presentation](https://evanm31.github.io/plotly_pres.html#1) 
