@@ -11,6 +11,9 @@ If you are interested in referencing the slides used for our talk on data visual
 
 We also encourage you to follow along with some of the visualization examples we will be presenting today if you'd like: 
 [Les Mis Co-occurence Chart](https://bost.ocks.org/mike/miserables/)
+
 [Radiation Dose Chart](https://xkcd.com/radiation/)
+
 [FluSight Network](http://flusightnetwork.io/)
+
 [D3 Gallery](https://github.com/d3/d3/wiki/Gallery)
