@@ -1,0 +1,11 @@
+---
+layout: post
+title: Recurrent Systems for EMG Based Motor Control
+author: Evan Moore
+---
+
+Come hear about the latest research from UMass Applied Math MS students Connor Amorin, Gabriel P. Andrade, Chris Brissette, Matthew Gagnon, Brandon Iles, Jimmy Smith, and Lance Wrobel in the second of our research talk series! At a high level, this exciting project at the intersection of math, computer science, and computational biology involves designing a robotic agent capable of processing both biological and environmental stimuli to perform some pre-specified task at the optimal time, using statistical/machine learning techniques from computer vision, signal processing, time series analysis, and more. Applications include factory production line optimization and artificial limbs to help the disabled, as well as many more. 
+
+Abstract: At the end of last semester we gave a talk which introduced the fascinating problem of creating an agent's controller via a complicated mixture of models. Due to the scope of such a problem we only managed to describe techniques for processing time series data (EMG in particular) and barely touched on classification. During this talk we will quickly reiterate these ideas so as to make it accessible to new audience members. We then more carefully introduce the classification task on EMG data, the troubles associated with it, and how well different models fare in this task. During this talk we will present results from several classic machine learning models, but ultimately our emphasis will be on introducing audience members to both recurrent neural networks (RNNs) and Reservoir Computing. Familiarity with these ideas will allow for a more comprehensive analysis of their performance in classifying EMG during our final talk later in this semester; it is here that we will really dig into classification results. No knowledge of RNNs nor Reservoir Computing is necessary.
+
+For additional information about their project, read the more high-level project overview (here)[https://www.meetup.com/Pioneer-Valley-and-Five-College-R-Statistical-Meetup/events/245317049/].
