@@ -17,7 +17,7 @@ Contact our Officers                                        | Email Addresses
 UGRID Email:                                                |  <umassugrid@gmail.com>
 President (Emily Dzwil):                                    |  <ermoore@umass.edu>
 Vice President (Emily Fritzman):                            |  <efritzman@umass.edu>
-Secretary (Ilina Shah):                                     |  <ishah@umass.edu>
+Secretary (Steven Yean):                                    |  <syean@umass.edu>
 Treasurer (Scott Cohn):                                     |  <scohn@umass.edu>
 Content Manager (Joseph Lattanzi):                          |  <jlattanzi@umass.edu>
 
